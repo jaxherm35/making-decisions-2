@@ -72,8 +72,7 @@ if(score >= 90){
   console.log('C')
 }if(score >= 60 && score <= 69){
   console.log('D')
-  if(score > 0 && score <= 59){
-  }
+} if(score > 0 && score <= 59){
   console.log('F')
   }
 
@@ -90,7 +89,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
-
+let sumNum = myFavoriteNumbers.slice(4,5)
+  console.log(sumNum)
 
 ////////// PROBLEM 7 //////////
 
@@ -98,7 +98,11 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
-
+if(myFavoriteNumbers.length < 7){
+  console.log('there are not enough elements in this array')
+}if(myFavoriteNumbers.lenght > 7){
+  console.log
+}
 
 ////////// PROBLEM 8 //////////
 
